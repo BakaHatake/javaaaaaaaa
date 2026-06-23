@@ -18,19 +18,10 @@ class MathOperations {
 
 public class Main {
     public static void main(String[] args) {
-
         MathOperations obj = new MathOperations();
 
-        // Multiplying two integers
-        System.out.println("Product of 2 integers: " +
-                           obj.multiply(10, 20));
-
-        // Multiplying three integers
-        System.out.println("Product of 3 integers: " +
-                           obj.multiply(5, 4, 3));
-
-        // Multiplying two floating-point numbers
-        System.out.println("Product of 2 floating-point numbers: " +
-                           obj.multiply(2.5, 4.0));
+        System.out.println("Product of two integers: " + obj.multiply(5, 4));
+        System.out.println("Product of three integers: " + obj.multiply(2, 3, 4));
+        System.out.println("Product of two floating-point numbers: " + obj.multiply(2.5, 4.0));
     }
 }
